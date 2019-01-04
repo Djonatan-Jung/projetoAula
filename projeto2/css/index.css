@@ -2,6 +2,12 @@ body{
     background: #d2d1d2 url('imagens/fundo.png');
 }
 .principal{
-    border: 1px solid red;
     width: 900px;
+}
+.nav{
+    background: #c5c5b2;
+    padding:18px;
+}
+a{
+    
 }
