@@ -24,6 +24,13 @@ img{
     background: url(../imagens/logo.png) no-repeat center;
     text-indent: -3000px;
 }
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
 ul{
     margin: 0;
     padding:0;
@@ -80,7 +87,7 @@ body.fotos #navegacao a#fotos
 #duas-colunas #ultima-entrevista{
     width: 555px;
 }
-#uma-coluna #ultima-entrevista{
+#uma-coluna #destaque{
     width: 750px;
     margin: 0 0 20px 0;
 }
@@ -151,7 +158,7 @@ input.submit{
     color:#fff;
     background: #870529;
 }
-#ultima-entrevista h3{
+.ultima h3{
     color:#000;
     background: #de003e ;
 }
@@ -166,9 +173,19 @@ input.submit{
 }
 .lista-noticias li a{
     text-decoration: none;
+
+}
+.lista-noticias li:hover{
+    background: #eee;
+
+}
+.lista-noticias li h3{
     font-size: 0.8em;
 }
-#container-rodape{
+.lista-noticias li p{
+    font-size: 0.6em;
+}
+#rodape-cont{
     background: #294c71;
     padding: 20px;
 }
