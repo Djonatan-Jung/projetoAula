@@ -10,7 +10,9 @@ body{
     width: 750px;
     margin: 0 auto;
 }
-
+img{
+    border: 2px solid #dfdfdf;
+}
 #topo{
     height:  150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
@@ -65,16 +67,24 @@ body.fotos #navegacao a#fotos
 }
 
 #conteudo{
-    margin:60px;
-    background: #f5f5f5 center url(../imagens/fundo-caixa.png);
+    margin-top:60px;
+    background: #f5f5f5;
 }
-#ultima-entrevista{
+
+#destaque{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-
 }
-#destaque{
+
+#duas-colunas #ultima-entrevista{
+    width: 555px;
+}
+#uma-coluna #ultima-entrevista{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+#ultima-entrevista{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
@@ -83,13 +93,87 @@ body.fotos #navegacao a#fotos
 #entrevistas{
     width: 180px;
     float: left;
-    margin-top: 0 0 20px -750px;
+    margin: 0 0 20px -750px;
 
 }
-.rodape{
-    width: 750px;
+h2{
+    font-size: 1.1em;
+    color:#fff;
+    background: #294c71;
+    padding: 5px;
+}
+.caixa{
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+.caixa-conteudo{
+    padding: 5px;
+    background: #fff;
+    margin-top: 5px;
+}
+#entrevistas ul a{
+    font-size: 0.9em;
+    text-decoration: none;
+    padding:3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+}
+#entrevistas ul a:hover{
+    background:#f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left:20px;
+    color:#a1a1a1;
+}
+#news{
+    margin-top: 5px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    font-size:0.9em;
+    background-color: #fff;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 0.3em solid #870529;
+}
+.subtitulo h3{
+    text-transform: uppercase;
+    display: inline;
+    padding: 3px;
+    font-size:0.9em;
+    color:#fff;
+    background: #870529;
+}
+#ultima-entrevista h3{
+    color:#000;
+    background: #de003e ;
+}
+.lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+.lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+.lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#container-rodape{
     background: #294c71;
     padding: 20px;
+}
+#rodape{
+    width: 750px;
     color: #fff;
     margin: 0 auto;
 }

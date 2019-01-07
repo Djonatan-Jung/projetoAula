@@ -5,7 +5,7 @@
         <title>Notícia cidade: seu site de notícia</title>
         <link rel="stylesheet" href="css/estilo.css">
     </head>
-    <body class="home">
+    <body id="tres-colunas" class="home">
         <div class="container">
             <header id="cabecalho">
                 <div id="topo">
@@ -37,22 +37,171 @@
             </header>
             <main>
                 <div id="conteudo">
-                    <div id="ultima-entrevista">
-                        Última Entrevista
-                    </div>
                     
-                    <div id="destaque">
-                        Destaque
-                    </div>
-                    <div id="entrevistas">
-                        Entrevistas
-                    </div>
-                </div>
+                    <!-- inicio Destaque-->
+                    <div class="caixa" id="destaque">
+                        <h2>Destaque</h2>
+                        <div class="caixa-conteudo subtitulo">
+                            <h3>Nova legislação</h3>
+                            <img src="imagens/taxi.jpg" width="100%">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p>
+                            <a href="" >Leia Mais</a>
+                        </div>
+
+                        <div class="caixa" id="mundo">
+                            <h2>Mundo</h2>
+                            <div class="caixa-conteudo">
+                                <ul class='lista-noticias'>
+                                    <li>
+                                        <a href="">
+                                            <img src="imagens/tecnologia.jpg" width="80">
+                                            <h3>Novas Tecnologias!</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="caixa-conteudo">
+                                <ul class='lista-noticias'>
+                                    <li>
+                                        <a href="">
+                                            <img src="imagens/tecnologia.jpg" width="80">
+                                            <h3>Novas Tecnologias!</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="caixa-conteudo">
+                                <ul class="lista-noticias">
+                                    <li>
+                                        <a href="">
+                                            <img src="imagens/tecnologia.jpg" width="80">
+                                            <h3>Novas Tecnologias!</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="caixa-conteudo">
+                                <ul class='lista-noticias'>
+                                    <li>
+                                        <a href="">
+                                            <img src="imagens/tecnologia.jpg" width="80">
+                                            <h3>Novas Tecnologias!</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                    </div><!-- fim Destaque-->
+
+                    <!-- inicio ultima entrevista-->
+                    <div class="caixa" id="ultima-entrevista">
+                        <h2>última Entrevista</h2>
+                        <div class="caixa-conteudo subtitulo">
+                            <h3>entrevista com felipe slva</h3>
+                            <img src="imagens/doutor.jpg" width="100%">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            
+                            </p>
+                        </div>
+                    </div><!-- fim ultima entrevista-->
+
+                <!-- incio entrevistas -->
+
+                    <div class="caixa" id="entrevistas">
+
+                        <h2>Entrevistas</h2>
+
+                        <div class="caixa-conteudo">
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">José Almeida</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">Felipe Silva</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">Renato Rodriguês</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">Alberto Silveira</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">André Carlos</a>
+                                </li>
+                            </ul>
+                            
+                            <ul>
+                                <li>
+                                    <a id="" class="" href="">Márcio Mello</a>
+                                </li>
+                            </ul>
+
+                                <ul>
+                                    <li>
+                                        <a id="" class="" href="">João Pedro</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a id="" class="" href="">Fernando Weiss</a>
+                                    </li>
+                                </ul>
+                        
+                        </div>
+
+                        <div class="caixa" id="news">
+
+                            <h2>News</h2>
+
+                            <div class="caixa-conteudo">
+                                <form>
+                                    <div>
+                                        <label>Email: </label>
+                                        <input type="email" name="email" placeholder="digite seu e-mail" id="email">
+                                    </div>
+                                    <div>
+                                        <input class="submit" type="submit" name="cadastrar" value="cadastrar">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> <!-- fim de entrevistas -->
+
+                </div><!-- Fim do container-->
+
             </main>
-            <footer class="rodape" style="clear: both;">
-                
-                &copy; Copyright 2000-2018 Notícias cidade
-            </footer>
+        </div>
+        <div id="container-rodape">
+            <div id="rodape" style="clear: both;">
+                <footer>
+                    &copy; Copyright 2000-2018 Notícias cidade
+                </footer>
+            </div>
         </div>
     </body>
 </html>
