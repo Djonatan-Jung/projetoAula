@@ -7,8 +7,8 @@ body{
     background: #fff url(../imagens/bg.png);
     margin:15px;
 }
-#container{
-    background: #ede9cc;
+.container{
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -98,4 +98,67 @@ ul#navegacao a:hover{
     width: 226px;
     height: 164px;
     float: right;
+}
+.area-principal{
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    float: left;
+    width: 50%;
+    padding: 15px 0px;
+}
+.area-lateral{
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    float: right;
+    width: 50%;
+    padding: 20px 0px;
+}
+.conteudos{
+    margin: 0 auto;
+    width: 90%;
+}
+h2{
+    font-size:1.1em;
+    color: #7d7640;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.rodape{
+    clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+}
+.conteudos{
+    padding: 20px 0px;
+    margin-top: 5px;
+}
+
+.lateral li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+.lateral li a img{
+    float: left;
+    margin-right: 8px;
+}
+.lateral li a{
+    text-decoration: none;
+
+}
+.lateral li:hover{
+    background: #f6f3d6;
+
+}
+.lateral li h3{
+    background: url(../imagens/ornamento.png)  top right no-repeat;
+    color: #615b2d;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+.lateral li p{
+    color: #000;
+    font-size: 0.8em;
 }
