@@ -16,7 +16,62 @@
                     <h1><a href="">Museu Nacional</a></h1>
                 </div>
 
+                <nav> <!-- Iniciando barra de navegação-->
+                    
+                    <ul class="lista-navegacao">
+                        <li><a href="">Home</a></li>
+
+                        <li><a href="">Exposições</a></li>
+
+                        <li><a href="">Acervos</a></li>
+
+                        <li><a href="">Vídeos</a></li>
+
+                        <li><a href="">Fotos</a></li>
+
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                
+                </nav><!--Fim da barra de navegação-->
+
             </header><!--Fim do Header-->
+
+            <div id="principal"><!--Inicio Principal-->
+
+                <div id="conteudos"><!--Inicio conteudos-->
+                    
+                    <section id="capa">
+                        <img src="imagens/museu.png">
+                    </section>
+
+                </div> <!--Fim conteudos-->
+                
+                <aside><!--Inicio Aside-->
+                
+                    <section id="depoimento">
+                    <img src="imagens/depoimento.png">
+                    </section>
+
+                    <section>
+                        <h4>Faça uma visita</h4>
+                        <fieldset>
+
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data:</label>
+                            <input type="data" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd de pessoas:</label>
+                            <input type="number" id="qtd" value="1">
+
+                        </fieldset>
+                        <input type="submit" value="verificar disponibilidade">
+                    </section>
+
+                </aside><!--Fim Aside-->
+
+            </div><!--Fim Principal-->
+
         </div> <!--Fim Container-->
     </body>
 </html>
