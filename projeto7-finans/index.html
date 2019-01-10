@@ -7,34 +7,173 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Finans</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/site.css">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     
     </head>
 
     <body>
+
+        <header>
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+
+                <div class="container">
+                    <a href="" class="navbar-brand">
+                        <img src="img/logo.png">
+                    </a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navegacao">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item"><a href="" class="nav-link text-danger">Home</a></li>
+                            <li class="navbar-item"><a href="" class="nav-link text-danger">Recursos</a></li>
+                            <li class="navbar-item"><a href="" class="nav-link text-danger">Benefícios</a></li>
+                            <li class="navbar-item"><a href="" class="nav-link text-danger">Preço</a></li>
+                            <button class="btn btn-outline-light">Entrar</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home"><!--incio da Section Home-->
+
+            <div class="container"> <!--Incio do Container da seção home-->
+
+                <div class="row">
+                    <div class="col-md-6 d-flex"> <!--Incio dos textos da Seção-->
+                        <div class="align-self-center">
+                            <h1 class="display-4">Suas contas, descomplicadas</h1>
+                            <p>Usado por mais de um milhão de pessoas, o Finans é uma ferramenta online que vai vacilitar sua vida financeira.</p>
+                            
+                            <form class="input-group input-group-lg">
+                                <input class="form-control" type="email" id="email" placeholder="Digite seu email">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </form>
+                            
+                            <p>Disponível para
+
+                                <a href="" class="btn btn-outline-light">
+                                    <i class="fab fa-apple fa-lg"></i>
+                                </a>
+
+                                <a href="" class="btn btn-outline-light">
+                                    <i class="fab fa-android fa-lg"></i>
+                                </a>
+
+                            </p>
+                        </div>
+                    </div> <!--Fim dos textos da Seção-->
+
+                    <div class="col-md-6 d-none d-md-block"><!--Incio da imagem da seção-->
+
+                        <img src="img/capa-mulher.png">
+
+                    </div><!--Fim da imagame da seção-->
+
+                </div>
+            </div><!--Fim do Container da seção home-->
+
+        </section><!-- Fim da Section home-->
         
+        <section class="caixa"> <!--Incio da Section saiba-->
+            <div class="container"> <!--incio do container da seção saiba-->
+                <div class="row">
+
+                    <div class="col-md-6 align-self-center"> <!--Incio do conteudo da seção saiba-->
+                        <h2 class="display-5">Saiba para onde vai seu dinheiro</h2>
+                        <p>Com o Fians, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem seu dinheiro e para onde vai seu dinheiro.</p>
+                        <a type="button" class="btn btn-primary">Veja Mais</a>
+                    </div> <!--Fim do conteudo da seção saiba-->
+
+                    <div class="col-md-6"> <!--Incio da imagem da seção saiba-->
+                        <img id="saibaImagem" src="img/saiba.png">
+                    </div> <!--Fim da imagem da seção saiba-->
+
+                </div>
+            </div> <!--Fim do Container da seção saiba-->
+        </section> <!--Fim da Section saiba-->
+
+        <section class="caixa"> <!--Incio da Section juros-->
+            <div class="container"> <!--incio do container da seção juros-->
+                <div class="row">
+
+                    <div class="col-md-6"> <!--Incio do imagem da seção juros-->
+                        <img id="jurosImagem" src="img/juros.png">
+                    </div> <!--Fim da imagem da seção juros-->
+
+                    <div class="col-md-6 align-self-center"> <!--Incio do conteudo da seção juros-->
+                        <h2 class="display-5">Pare de pagar juros e economize</h2>
+                        <p>Manter as contas em dia é sempre um problema? O organizze avisa você: receba alertas  de contas a pagar e a receber!</p>
+                        <a type="button" class="btn btn-primary">Veja Mais</a>
+                    </div> <!--Fim do conteudo da seção juros-->
+
+                </div>
+            </div> <!--Fim do Container da seção juros-->
+        </section> <!--Fim da Section juros-->
         
+        <section class="caixa">  <!--Incio da Section final-->
+            <div class="container"><!--Incio do conatiner final-->
+                <div class="row">
 
+                    <div class="col-md-4 align-self-center"><!--Incio do Fácil de Usar-->
+                        <img id="facil" src="img/facil.png">
+                        <h4>Fácil de usar</h4>
+                        <p>O Finans vai além do básico e permite que você faça controles incríveis, essencias para suas finanças.Simples como tem que ser.</p>
+                    </div><!--Fim do Fácio de Usar-->
 
+                    <div class="col-md-4 align-self-center"><!--Incio do economize-->
+                        <img id="economize" src="img/economize.png">
+                        <h4>Economize seu tempo</h4>
+                        <p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa para você!</p>
+                    </div><!--Fim do Fácio de economize-->
 
+                    <div class="col-md-4 align-self-center"><!--Incio do suporte-->
+                        <img id="suporte" src="img/suporte.png">
+                        <h4>Suporte amigo</h4>
+                        <p>Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui para resolver seus problemas e deixar sua vida bem mais fácil!</p>
+                    </div><!--Fim do suporte-->
+                </div>
+            </div><!--Fim do container Final-->
+        </section> <!--Fim da Sectio final-->
 
+        <footer class="mt-4 mb-4"><!--Inicio do Footer-->
 
+            <div class="container" id="rodape"><!--Incio do container rodapé-->
+                <div class="row">
 
+                    <div class="col-md-8"><!--Incio dos links do footer-->
+                        
+                        <p>
+                            <a href="">Home</a>
+                            <a href="">Recursos</a>
+                            <a href="">Benefícios</a>
+                            <a href="">Preço</a>
+                        </p>
+                    </div><!--Fim dos Links do footer-->
 
+                    <div class="col-md-4"><!--incio dos icones do rodapé-->
+                        <a href="" class="btn btn-outline-dark">
+                            <i class="fab fa-instagram"></i>
+                        </a>
 
+                        <a href="" class="btn btn-outline-dark">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="btn btn-outline-dark">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div><!--Fim dos icones do rodapé-->
 
+                </div>
+            </div><!--Fim do container rodapé-->
+        </footer><!--Fim do footer-->
 
-
-
-
-
-
-
-
-
-
-
-
-        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
