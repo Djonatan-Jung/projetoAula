@@ -1,21 +1,31 @@
-#home, .navegacao{
-    background: url(../imagens/capa.png);
+#home, #facil{
+    background: url(../imagens/capa.png), 
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
 }
 .navegacao{
-    opacity: 0.9;
+    opacity: 0.6;
 }
 #home{
     padding: 300px 0;
-    background-color:#e83e8c;
 }
-#home{
-    background-color:#e83e8c;
+#home, #facil{
     position: relative;
     opacity: 0.9;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
 }
 #img1, #img2, #img3, #img4{
     width: 100%;
+}
+#iphone1, #iphone2{
+    width: 90%;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+  
+}
+#iphone2{
+    padding-top: 70%;
 }
