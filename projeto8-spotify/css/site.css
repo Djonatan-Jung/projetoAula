@@ -1,9 +1,21 @@
 #home, .navegacao{
-    background: url(../imagens/capa.png) repeat-y;
+    background: url(../imagens/capa.png);
 }
 .navegacao{
     opacity: 0.9;
 }
 #home{
-    padding: 60px 0;
+    padding: 300px 0;
+    background-color:#e83e8c;
+}
+#home{
+    background-color:#e83e8c;
+    position: relative;
+    opacity: 0.9;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+}
+#img1, #img2, #img3, #img4{
+    width: 100%;
 }
