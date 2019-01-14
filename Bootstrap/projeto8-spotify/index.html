@@ -47,33 +47,43 @@
         </nav>
     </header><!--Fim Header-->
 
-    <section id="home"><!--Incio da section home-->
+    <section id="home" class="d-flex"><!--Incio da section home-->
 
-        <div class="container"><!--incio do container da section home-->
+        <div class="container align-self-center"><!--incio do container da section home-->
             
             <div class="row">
 
-                <div class="col-md-12 offset-md-2">
-
-                    <div class="align-self-center">
-                        <div>
-
-                            <h1 class="display-1 text-light align-sm-center">Música para todos</h1>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-md-12 offset-md-1">
-                            <div class="align-self-center">
-                                <a class="btn btn-primary text-uppercase text-light">Aproveite o Spotify Free</a>
-                                <a class="btn btn-outline-light text-uppercase text-light">Obter Spotify premium</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-md-12 capa">
+                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel"> <!--Inicio Carousel-->
                     
+                        <div class="carousel-inner"><!--Inicio Inner carousel-->
+
+                            <div class="carousel-item active"><!--Inicio item 1-->
+                                <h1 class="display-1 text-light align-sm-center">Música para todos</h1>
+                                <a class="btn btn-custom text-uppercase btn-roxo">Aproveite o Spotify Free</a>
+                                <a class="btn btn-custom text-uppercase btn-branco">Obter Spotify premium</a>
+                            </div> <!--Fim item 1-->
+
+                            <div class="carousel-item"><!--Inicio item 2-->
+                                <h1 class="display-1 text-light align-sm-center">As melhores rádios</h1>
+                                <a class="btn btn-custom text-uppercase btn-branco"><i class="fas fa-music"></i>Ouça agora</a>
+                            </div> <!--Fim item 2-->
+
+                        </div><!--Fim Inner carousel-->
+
+                        <a class="carousel-control-prev" data-slide="prev" href="#carousel-spotify">
+                            <i class="fa fa-angle-left fa-3x"></i>
+                        </a>
+
+                        <a class="carousel-control-next" data-slide="next" href="#carousel-spotify">
+                            <i class="fa fa-angle-right fa-3x"></i>
+                        </a>
+
+                    </div><!--Fim Carousel-->
+
+                </div>
             </div>
+                    
 
         </div><!--fim do container da section home-->
 
@@ -228,7 +238,17 @@
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div><!--Fim dos icones do rodapé-->
-
+                <div  id="navfooter"><!--Incio da barra de navegação na horizontal-->
+                    <nav class="fixed-bottom navbar navbar-expand-sm navbar-light"  id="navfooter">
+                        <div class="container "><!--Inicio do container do Footer-->
+                            <ul class="navbar-nav"> 
+                                <li class="navbar-item"><a href="" class="nav-link text-light">Ajuda</a></li>
+                                <li class="navbar-item"><a href="" class="nav-link text-light">Presente</a></li>
+                                <li class="navbar-item"><a href="" class="nav-link text-light">Player da Web</a></li>
+                            </ul>
+                        </div><!--Fim do container do footer-->
+                    </nav>
+                </div><!--Fim da barra de navegação na horizontal-->
             </div>
 
         </div><!--Fim do container do rodapé-->
