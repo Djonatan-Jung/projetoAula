@@ -3,12 +3,14 @@ var largura = 0;
 var vida = 1;
 var tempo = 15;
 
+//ajusta tamanhos do palco
 function ajustaPalco(){
     altura = window.innerHeight;
     largura = window.innerWidth;
 
 }
 
+//Inicia o Jogo
 function iniciaJogo() {
     var nivel = document.getElementById('nivel').value
 
@@ -21,4 +23,17 @@ function iniciaJogo() {
 
 }
 ajustaPalco();
-console.log(altura, largura)
+
+var posicaoX = Math.floor(Math.random() * altura);
+var posicaoY = Math.floor(Math.random() * largura);
+
+//ajusta cronometro e cria mosca
+function app (){
+    document.getElementById('cronometro').innerHTML = tempo;
+
+        var criaMosca = setInterval(function() { 
+            posicaoRandomica()
+        }, criaMosquitoTempo);
+};
+
+//cria elemento HTML
