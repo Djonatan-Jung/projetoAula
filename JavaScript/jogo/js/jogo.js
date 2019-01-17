@@ -37,3 +37,4 @@ function app (){
 };
 
 //cria elemento HTML
+var mosquito = document.createElement('img');
